@@ -49,5 +49,3 @@
 	<dd>file pattern : *.exe
 	<dd>folder: my-folder/</dd>
 </dl>
-
-`asdfasddf`
