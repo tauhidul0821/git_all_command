@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
 
 <dl>
 	<dt>Add and commit process in one line command </dt>
@@ -78,7 +72,3 @@
 	<dd>file pattern : *.exe
 	<dd>folder: my-folder/</dd>
 </dl>
-
-
-</body>
-</html>
