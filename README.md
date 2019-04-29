@@ -2,48 +2,48 @@
 	<dt>Add and commit process in one line command </dt>
 	<dd><code>git commit -am ‘adding more’</code></dd>
 	<dt>Show all git tracking file </dt>
-	<dd>git ls-file</dd>
+	<dd><code>git ls-file</code></dd>
 	<dt>Create folder </dt>
-	<dd>mkdir -p level1/level2/level3/level4</dd>
+	<dd><code>mkdir -p level1/level2/level3/level4</code></dd>
 	<dt>Where i am </dt>
-	<dd>pwd</dd>
+	<dd><code>pwd</code></dd>
 	<dt>Create file </dt>
-	<dd>mate level-file.txt</dd>
+	<dd><code>mate level-file.txt</code></dd>
 	<dt>Back to the directory</dt>
-	<dd>cd ../../../.. </dd>
+	<dd><code>cd ../../../..</code></dd>
 	<dt>Unstage modified file </dt>
-	<dd>git reset HEAD file_name.txt</dd>
+	<dd><code>git reset HEAD file_name.txt</code></dd>
 	<dt>Discard change in working directory</dt>
-	<dd>git checkout -- file_name.txt</dd>
+	<dd><code>git checkout -- file_name.txt</code></dd>
 	<dt>Rename file name </dt>
-	<dd>git mv file_3.txt file.txt </dd>
+	<dd><code>git mv file_3.txt file.txt</code></dd>
 	<dt>File name change or Rename file without git </dt>
-	<dd>mv file_name.txt file.txt</dd>
+	<dd><code>mv file_name.txt file.txt</code></dd>
 	<dt>Now you see one file deleted and untracked file </dt>
-	<dd>git status</dd>
+	<dd><code>git status</code></dd>
 	<dt>Removing file from git ls-file </dt>
-	<dd>git rm file_name.txt</dd>
+	<dd><code>git rm file_name.txt</code></dd>
 	<dt>Removing folder from without git </dt>
-	<dd>rm -rf folder_name</dd>
+	<dd><code>rm -rf folder_name</code></dd>
 	<dt>Show git history</dt>
-	<dd>git log</dd>
+	<dd><code>git log</code></dd>
 	<dt>Short commit id </dt>
-	<dd>git log --abbrev-commit</dd>
+	<dd><code>git log --abbrev-commit</code></dd>
 	<dt>For one line graph and decorate show </dt>
-	<dd>git log --oneline --graph --decorate</dd>
+	<dd><code>git log --oneline --graph --decorate</code></dd>
 	<dt>Spacify commit list show </dt>
-	<dd>git log commit_no ...commit_no</dd>
+	<dd><code>git log commit_no ...commit_no</code></dd>
 	<dt>Want to show 3 days ago commit or history commit </dt>
-	<dd>git log --since=”3 days ago”</dd>
+	<dd><code>git log --since=”3 days ago”</code></dd>
 	<dt>Spacify git log a file, git return spacify file log </dt>
-	<dd>git log -- file_name</dd>
+	<dd><code>git log -- file_name</code></dd>
 	<dt>Git return what change in this commit </dt>
-	<dd>git show commit_id</dd>
+	<dd><code>git show commit_id</code></dd>
 	<dt>Git all commit history </dt>
-	<dd>git log --all --graph --decorate --oneline</dd>
+	<dd><code>git log --all --graph --decorate --oneline</code></dd>
 	<dt>For create your own git command </dt>
-	<dd>git config --global alias.hist ‘log --all --graph --decorate --oneline’</dd>
-	<dd>git hist</dd>
+	<dd><code>git config --global alias.hist ‘log --all --graph --decorate --oneline’</code></dd>
+	<dd><code>git hist</code></dd>
 	<dt>Git ignore pattern example </dt>
 	<dd>specific file : myfile.txt</dd>
 	<dd>file pattern : *.exe
