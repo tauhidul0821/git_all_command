@@ -1,5 +1,5 @@
 # git_all_command
-Add and commit process in one line command 
+<h1>Add and commit process in one line command </h1>
 Git commit -am ‘adding more’
 Show all git tracking file 
 Git ls-file
