@@ -48,4 +48,22 @@
 	<dd>specific file : myfile.txt</dd>
 	<dd>file pattern : *.exe
 	<dd>folder: my-folder/</dd>
+	<dt>Show all git branch</dt>
+	<dd><code>git branch -a</code></dd>
+	<dt>Created Branch</dt>
+	<dd><code>git branch branch_name</code></dd>
+	<dt>again show all branch </dt>
+	<dd><code>git branch -a</code></dd>
+	<dt>Switch one branch to another branch</dt>
+	<dd><code>git checkout branch_name</code></dd>
+	<dt>Rename branch name</dt>
+	<dd><code>git branch -m old_name new_name</code></dd>
+	<dt>Delete a branch</dt>
+	<dd><code>git branch -d branch_name</code></dd>
+	<dt>Create,checkout and Switch git branch</dt>
+	<dd><code>git checkout -b branch_name</code></dd>
+	<dt>All code one branch to another branch</dt>
+	<dd><code>git marge branch_name --no-ff</code></dd>
+	<dt>See how marge works</dt>
+	<dd><code>git log --oneline --graph --decorate --all</code></dd>
 </dl>
